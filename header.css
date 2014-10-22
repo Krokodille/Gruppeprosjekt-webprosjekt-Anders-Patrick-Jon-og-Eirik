@@ -1,0 +1,67 @@
+header {
+	height: 450px;
+	background-image: url(./Bilder/motherboard.jpg);
+	background-size: cover;
+	background-blend-mode: overlay, normal;
+	font-family: Helvetica;
+}
+
+.h1 {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: 20px;
+	margin-top: auto;
+	clear: both;
+	padding-top: 50px;
+}
+
+.nav {
+	text-align: center;
+	margin: 148px 30px 0 0;
+}
+
+.nav a {
+	display: inline-block;
+	margin-left: 20px;
+	background-color: #BBBBBB;
+	color: black;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: white;
+}
+
+.span {
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	border: black solid 10px;
+}
+
+.historicevents {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	background-color: #BBBBBB;
+	color: black;
+	line-height: 1;
+}
+
+/*mobile*/
+@media screen and (max-width: 600px){
+	.h1 {
+		font-size: 40px;
+	}
+	
+	.span {
+		border: black solid 5px;
+	}
+}

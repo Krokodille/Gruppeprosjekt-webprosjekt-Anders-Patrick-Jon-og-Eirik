@@ -1,0 +1,14 @@
+.section-pictures {
+	margin-bottom: 100px;
+}
+
+.overskrift {
+	text-align: center;
+	font-family: helvetica;
+	color: black;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 50px;
+}
